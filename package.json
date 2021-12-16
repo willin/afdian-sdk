@@ -1,6 +1,6 @@
 {
   "name": "afdian",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "爱发电 SDK for Node.js and Browser",
   "source": "src/index.ts",
   "main": "dist/main.js",
