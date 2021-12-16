@@ -1,0 +1,5 @@
+root: true
+extends:
+  - '@willin'
+rules:
+  no-shadow: 0
