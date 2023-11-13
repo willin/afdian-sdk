@@ -48,7 +48,7 @@ export interface AfdianSponsorInfo {
 export interface AfdianResponse {
   ec: number;
   em: string;
-  data?: any;
+  data?: unknown;
 }
 
 export interface AfdianSponsorResponse {
@@ -87,4 +87,10 @@ export interface AfdianOrderResponse {
     total_count: number;
     total_page: number;
   };
+}
+
+export interface AfdianWebhookResponse {
+  ec: number;
+  em: string;
+  data: AfdianOrderInfo;
 }

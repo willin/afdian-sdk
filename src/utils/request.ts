@@ -1,5 +1,5 @@
-import { AfdianRequestParams } from '../types';
 import md5 from 'crypto-js/md5';
+import { AfdianRequestParams } from '../types';
 
 export interface AfdianRequest {
   user_id: string;
