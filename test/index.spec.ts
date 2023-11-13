@@ -50,5 +50,6 @@ test('webhookOrder', async () => {
   };
   const res = await afdian.webhookOrder(testData);
   expect(res.ec).toBe(200);
-  expect(res.data.out_trade_no).not.toBeNull();
+  expect(res.data.type).toBe('order');
+  expect(res.data.order.out_trade_no).toBe('202106232138371083454010626');
 });

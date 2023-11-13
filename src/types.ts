@@ -92,5 +92,8 @@ export interface AfdianOrderResponse {
 export interface AfdianWebhookResponse {
   ec: number;
   em: string;
-  data: AfdianOrderInfo;
+  data: {
+    type: 'order';
+    order: AfdianOrderInfo;
+  };
 }
