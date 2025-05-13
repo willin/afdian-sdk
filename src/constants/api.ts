@@ -1,4 +1,4 @@
-const API_BASE = 'https://afdian.net/api/open';
+const API_BASE = 'https://afdian.com/api/open';
 
 const getUrl = (path: string): string => `${API_BASE}/${path}`;
 
