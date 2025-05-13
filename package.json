@@ -1,51 +1,47 @@
 {
-  "name": "afdian",
-  "version": "1.0.1",
-  "description": "爱发电 SDK for Node.js and Browser",
-  "source": "src/index.ts",
-  "main": "dist/main.js",
-  "module": "dist/module.js",
-  "types": "dist/types.d.ts",
-  "scripts": {
-    "watch": "parcel watch",
-    "build": "parcel build",
-    "test": "jest --coverage",
-    "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md"
-  },
-  "dependencies": {
-    "crypto-js": "^4.2.0",
-    "isomorphic-unfetch": "^3.1.0"
-  },
-  "devDependencies": {
-    "@commitlint/cli": "^15.0.0",
-    "@commitlint/config-conventional": "^15.0.0",
-    "@parcel/packager-ts": "^2.10.2",
-    "@parcel/transformer-typescript-types": "^2.10.2",
-    "@types/crypto-js": "^4.2.1",
-    "@types/jest": "^27.5.2",
-    "@types/node": "^20.9.0",
-    "@willin/eslint-config": "^0.0.6",
-    "conventional-changelog-cli": "^2.2.2",
-    "eslint": "^8.53.0",
-    "jest": "^27.5.1",
-    "parcel": "^2.10.2",
-    "prettier": "^2.8.8",
-    "ts-jest": "^27.1.5",
-    "typescript": "^4.9.5"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/willin/afdian-sdk.git"
-  },
-  "keywords": [
-    "afdian",
-    "sdk",
-    "爱发电"
-  ],
-  "author": "Willin Wang <willin@willin.org> (https://willin.wang/)",
-  "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/willin/afdian-sdk/issues"
-  },
-  "homepage": "https://github.com/willin/afdian-sdk#readme"
+	"name": "afdian",
+	"version": "2.0.0",
+	"description": "爱发电 SDK for Node.js and Browser",
+	"source": "src/index.ts",
+	"main": "dist/main.js",
+	"module": "dist/module.js",
+	"types": "dist/types.d.ts",
+	"scripts": {
+		"watch": "parcel watch",
+		"build": "parcel build",
+		"test": "jest --coverage",
+		"version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md"
+	},
+	"dependencies": {
+		"crypto-js": "^4.2.0",
+		"isomorphic-unfetch": "^3.1.0"
+	},
+	"devDependencies": {
+		"@commitlint/cli": "^15.0.0",
+		"@commitlint/config-conventional": "^15.0.0",
+		"@parcel/packager-ts": "^2.10.2",
+		"@parcel/transformer-typescript-types": "^2.10.2",
+		"@types/crypto-js": "^4.2.1",
+		"@types/jest": "^27.5.2",
+		"@types/node": "^20.9.0",
+		"@willin/eslint-config": "^0.0.6",
+		"conventional-changelog-cli": "^2.2.2",
+		"eslint": "^8.53.0",
+		"jest": "^27.5.1",
+		"parcel": "^2.10.2",
+		"prettier": "^2.8.8",
+		"ts-jest": "^27.1.5",
+		"typescript": "^4.9.5"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/willin/afdian-sdk.git"
+	},
+	"keywords": ["afdian", "sdk", "爱发电"],
+	"author": "Willin Wang <willin@willin.org> (https://willin.wang/)",
+	"license": "Apache-2.0",
+	"bugs": {
+		"url": "https://github.com/willin/afdian-sdk/issues"
+	},
+	"homepage": "https://github.com/willin/afdian-sdk#readme"
 }
